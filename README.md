@@ -4,9 +4,10 @@ This project implements an advanced image captioning model using a deep learning
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The core of this project is a sophisticated neural network that understands both images and text.
+This project was meant to be a team project between 10 members.
 
 - **Encoder:** We use a pre-trained **InceptionV3** convolutional neural network (CNN) as our encoder. Its role is to extract a grid of rich, spatial features from an input image.
 - **Decoder:** An **LSTM**-based recurrent neural network (RNN) serves as the decoder. It takes the image features from the encoder and generates a caption one word at a time.
@@ -15,7 +16,7 @@ The core of this project is a sophisticated neural network that understands both
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 To run this project, you'll need to set up a Python environment with the necessary libraries.
 
@@ -50,7 +51,7 @@ To run this project, you'll need to set up a Python environment with the necessa
 
 ---
 
-## 🖼️ Dataset
+## Dataset
 
 This model was trained on a specific image captioning dataset. We recommend using one of the following:
 
@@ -61,7 +62,7 @@ You will need to download and preprocess the dataset, including tokenizing the c
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### 1\. Pre-process the Data
 
@@ -77,18 +78,6 @@ Check the final-team-c.ipynb file for further details.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
----
-
-## 📝 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
