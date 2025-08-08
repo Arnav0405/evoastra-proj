@@ -1,0 +1,6 @@
+*.pdf
+myenv/
+data_extract_code/saved/
+*.pkl
+*.csv
+*.npy
